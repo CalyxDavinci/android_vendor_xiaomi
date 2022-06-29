@@ -2181,14 +2181,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase_vendor",
+	name: "libmpbase",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmpbase_vendor.so"],
+			srcs: ["proprietary/vendor/lib64/libmpbase.so"],
 		},
 	},
 	compile_multilib: "64",
